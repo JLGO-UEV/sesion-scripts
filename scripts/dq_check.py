@@ -3,8 +3,8 @@ from pathlib import Path
 import pandas as pd, yaml
 
 # --- Rutas robustas relativas a este archivo ---
-HERE = Path(__file__).resolve().parent     # .../project/scripts
-PROJECT_ROOT = HERE.parent                 # .../project
+HERE = Path(__file__).resolve().parent     # .../scripts
+PROJECT_ROOT = HERE                 # .../
 DATA_DIR = PROJECT_ROOT / "data"
 CONFIG_DIR = PROJECT_ROOT / "config"
 OUT_DIR = PROJECT_ROOT / "out"
